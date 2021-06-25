@@ -36,6 +36,7 @@ export default class Main extends Component{
                 <Link to="#" onClick={() => {this.setState({loggedin: true});}}>Log in</Link>
             )
         }
+        <img src="/logo2.png"/>
         </BrowserRouter>);
     }
 }
